@@ -60,7 +60,7 @@ const BookSlider = () => {
               </div>
               <div className="book-content">
                 <div className="book-title">ഗീതാഞ്ജലി</div>
-                {/* <div className="book-author">by Jojo Moyes</div> */}
+                <div className="book-author">by Rabindranath Tagore</div>
 
 
 

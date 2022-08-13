@@ -704,6 +704,20 @@ h1 {
   .book-cell {
     width: 80%;
   }
+
+
+  .hide{
+    display: none;
+  }
+
+  .book-title{
+    font-size: larger;
+  }
+
+  .book-author{
+    font-size: larger;
+  }
+
 }
 @media (max-width: 575px) {
   .book-cell {
@@ -717,6 +731,18 @@ h1 {
 
   .book-voters {
     display: none;
+  }
+
+  .hide{
+    display: none;
+  }
+
+  .book-title{
+    font-size: larger;
+  }
+
+  .book-author{
+    font-size: small;
   }
 }
 @media (max-width: 420px) {
@@ -732,6 +758,10 @@ h1 {
   .book-title{
     font-size: larger;
   }
+
+  .book-author{
+    font-size: small;
+  } 
 
   .book-photo {
     width: 130px;
@@ -759,6 +789,17 @@ h1 {
 @media (max-width: 360px) {
   .rating > label:before {
     font-size: 0.8em;
+  }
+  .hide{
+    display: none;
+  }
+
+  .book-title{
+    font-size: larger;
+  }
+
+  .book-author{
+    font-size: larger;
   }
 }
 @media (max-width: 1220px) {

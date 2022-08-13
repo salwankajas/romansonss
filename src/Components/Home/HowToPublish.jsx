@@ -50,6 +50,19 @@ const HowToPublish = () => {
                                 </a>
                             </div>
                         </div>
+                        <div style={{opacity: "0"}} className="col-lg-4 col-md-6 wow zoomIn hide" data-wow-delay="0.6s">
+                            <div
+                                className="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                                <div className="service-icon">
+                                    <i className="fa fa-chart-pie text-white"></i>
+                                </div>
+                                <h4 className="mb-3">Upload script in PDF</h4>
+                                {/* <p className="m-0">Brief Description</p> */}
+                                <a className="btn btn-lg btn-primary rounded" href="">
+                                    <i className="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
                         <div className="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                             <div
                                 className="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
@@ -57,6 +70,18 @@ const HowToPublish = () => {
                                     <i className="fab fa-android text-white"></i>
                                 </div>
                                 <h4 className="mb-3">Your Book is Published</h4>
+                                <a className="btn btn-lg btn-primary rounded" href="">
+                                    <i className="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div style={{opacity: "0"}} className="col-lg-4 col-md-6 wow zoomIn hide" data-wow-delay="0.6s">
+                            <div
+                                className="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                                <div className="service-icon">
+                                    <i className="fa fa-chart-pie text-white"></i>
+                                </div>
+                                <h4 className="mb-3">Upload script in PDF</h4>
                                 {/* <p className="m-0">Brief Description</p> */}
                                 <a className="btn btn-lg btn-primary rounded" href="">
                                     <i className="bi bi-arrow-right"></i>

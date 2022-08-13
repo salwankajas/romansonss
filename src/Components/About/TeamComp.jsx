@@ -3,7 +3,7 @@ import React from 'react';
 const TeamComp =  ({name,image})=>{
     return(
         <div className="col-lg-11 wow" data-wow-delay="0.6s">
-                            <div className="team-item bg-light rounded overflow-hidden">
+                            <div className="team-item rounded overflow-hidden">
                                 <div className="team-img position-relative overflow-hidden">
                                     <img className="img-fluid w-100" src={image} alt=""/>
                                         {/* <div className="team-social">

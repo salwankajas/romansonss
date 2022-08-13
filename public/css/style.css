@@ -61,7 +61,6 @@
     opacity: 1;
 }
 
-
 /*** Heading ***/
 h1,
 h2,
@@ -481,6 +480,10 @@ h6,
     opacity: 1;
     margin-top: 0;
     transition: .3s .15s;
+}
+
+.team-img{
+    border-radius:  50%;
 }
 
 .team-item .team-img img,

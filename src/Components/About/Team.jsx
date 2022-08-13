@@ -25,7 +25,7 @@ const Team = () => {
                         <TeamComp name="Vipin Thomas" image={require("./dist/img/8.jpg")} />
                         <TeamComp name="Dr Sunitha" image={require("./dist/img/9.jpg")} />
                         <TeamComp name="Sandhya" image={require("./dist/img/10.jpg")} />
-                        <TeamComp name="?" image={require("./dist/img/11.jpg")} />
+                        <TeamComp name="Robinson" image={require("./dist/img/11.jpg")} />
                         <TeamComp name="Manjula Mampally" image={require("./dist/img/12.jpg")} />
                         <TeamComp name="Prof G. Gopalakrishnan" image={require("./dist/img/13.jpg")} />
                     </div>

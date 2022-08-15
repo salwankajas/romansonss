@@ -17,7 +17,7 @@ const Nav = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarCollapse">
                     <div className="navbar-nav ms-auto py-0">
-                    <NavLink to='/' reloadDocument className={({ isActive }) => (isActive ? "nav-item nav-link nav-link1 active" : "nav-item nav-link nav-link1")} onClick={()=>{window.location.href='/'}}>Home</NavLink>
+                    <NavLink to='/' className={({ isActive }) => (isActive ? "nav-item nav-link nav-link1 active" : "nav-item nav-link nav-link1")}>Home</NavLink>
                         <NavLink to='/about' className={({ isActive }) => (isActive ? "nav-item nav-link nav-link1 active" : "nav-item nav-link nav-link1")}>About</NavLink>
                         <NavLink to='/services' className={({ isActive }) => (isActive ? "nav-item nav-link nav-link1 active" : "nav-item nav-link1 nav-link")}>Services</NavLink>
                         <NavLink to='/testimonial' className={({ isActive }) => (isActive ? "nav-item nav-link nav-link1 active" : "nav-item nav-link1 nav-link")}>Testimonials</NavLink>

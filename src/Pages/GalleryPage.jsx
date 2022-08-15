@@ -3,7 +3,6 @@ import Hero from '../Components/Gallery/Hero'
 import Footer from '../Components/Common/Footer'
 import Nav from '../Components/Common/Nav'
 import Gallery from '../Components/Gallery/Gallery'
-
 const GalleryPage = () => {
 
     useEffect(() => {

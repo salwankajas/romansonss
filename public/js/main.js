@@ -97,8 +97,7 @@ $( window ).on("load", function() {
                 }
             }
         });
-    
-    
+        
         // Vendor carousel
         $('.vendor-carousel').owlCarousel({
             loop: true,

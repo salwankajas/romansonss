@@ -4,6 +4,24 @@ import "./dist/style.css"
 import { useEffect, useState } from 'react'
 import BookCell from './SliderOne'
 const BookSlider = () => {
+  console.log(window.location.pathname);
+  useEffect(() => {
+    const reloadCount = sessionStorage.getItem('reloadCount');
+    if(reloadCount < 1) {
+      sessionStorage.setItem('reloadCount', String(reloadCount + 1));
+      window.location.reload();
+    } else {
+      sessionStorage.removeItem('reloadCount');
+    }
+    const script = document.createElement("script");
+    script.src = "js/booksliderauto.js";
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    }
+
+  },[]);
   return (
     <>
       <div style={{ marginTop: "5rem" }} className="book-store">

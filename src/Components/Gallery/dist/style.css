@@ -73,7 +73,12 @@ body {
 .gallery-image:hover {
 	transform: scale(1.15);
 }
-
+.seeMore{
+	transition: all 0.5s;
+}
+.seeMore:hover{
+	transform: scale(1.05);
+}
 /*
 
 The following rule will only run if your browser supports CSS grid.

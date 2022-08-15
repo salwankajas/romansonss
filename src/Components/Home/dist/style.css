@@ -235,18 +235,18 @@ img {
   color: #3d4954;
   overflow: hidden;
   font-family: 'Noto Sans JP', sans-serif;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 600;
 }
 
 .book-author {
   margin-top: 3px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   text-overflow: ellipsis;
-  white-space: nowrap;
+  /* white-space: nowrap; */
   overflow: hidden;
 }
 
@@ -750,7 +750,7 @@ h1 {
     width: 120px;
     font-size: 13px;
   }
-  
+
   .hide{
     display: none;
   }
@@ -761,7 +761,7 @@ h1 {
 
   .book-author{
     font-size: small;
-  } 
+  }
 
   .book-photo {
     width: 130px;

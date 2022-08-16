@@ -3,7 +3,7 @@ import React from 'react'
 const YouTube = () => {
     const youtubeId = '-TCS7Fok6z0'
     return (
-        <div style={{width: "50%",margin: "0 auto"}}>
+        <div style={{maxWidth: "700px",margin: "0 auto"}}>
             <div
                 className="video"
                 style={{

@@ -1,5 +1,5 @@
 import os
-path = '/home/viwichi_/Desktop/viwicodes/planVARIBLY/rom/romanson/src/Components/Gallery/Inaugration'
+path = '/home/viwichi_/Desktop/viwicodes/planVARIBLY/romansons/public/Images'
 files = os.listdir(path)
 
 
